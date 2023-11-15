@@ -1,0 +1,168 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(243, 246, 246);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+
+}
+
+main hr {
+    border: 0;
+    background: rgb(44, 34, 186);
+    height: 2.2px;
+    margin: 20px -20px;
+    margin-top: 180px;
+}
+
+.left {
+    font-size: 2rem;
+}
+.left1 {
+    font-size: 1rem;
+}
+
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin: 70px 0;
+
+}
+
+.purple {
+    color: rgb(96, 3, 183);
+}
+.text-gray{
+    color: gray;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.secondSection .box{
+    background: black;
+    width: 78vw;
+    height: 2px;
+    margin: 10px 0;
+   display: flex;
+
+}
+.secondSection .vertical{
+    height: 150px;
+    width: 1px;
+    background-color: black;
+    margin: 0 168px;
+
+}
+.image-top{
+    width: 50px;
+    position: relative;
+    top: -64;
+    left: -45;
+}
+
+.vertical-title{
+    position: relative;
+    top: 30px;
+    width: 150px;
+    font-size: 25px;
+
+}
+.vertical-title1{
+    position: relative;
+    top: 30px;
+    width: 150px;
+    font-size: 25px;
+}
+.vertical-desc{
+    position: relative;
+    top: 40px;
+    width: 150px;
+    font-size: 25px;
+
+}
+.img{
+    display: flex;
+    left: 50px;
+}
+.imgsize{
+    width: 80px;
+    height: 100px;
+    margin-left: 145px;
+    margin-right: 100px;
+}
+.secondSection h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.secondSection h2{
+    margin-top: 30px;
+}
+.exp{
+    margin-top: 250px;
+}
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+.skillimg{
+    display: flex;
+
+}
+.imgs{
+    flex: 33.33%;
+    padding: 5px;
+}
+.skillimg1{
+    display: flex;
+
+}
